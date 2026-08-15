@@ -204,7 +204,7 @@ st.markdown(
     **Machine Learning Model Comparison using the <a href="https://archive.ics.uci.edu/ml/datasets/adult" target="_blank">UCI Adult Income Dataset</a>**.
 
     This application evaluates five classification algorithms for predicting whether an individual's annual income is **≤50K or >50K**.
-    The .joblib files under the <a href="https://github.com/2025ac05048/ML-Assignment-2/tree/b5e05f9381607f924e0b955df570f01974fc35d2/model" target="_blank">model</a> directory contain the complete preprocessing and model pipeline.
+    The .joblib files under the model directory contain the complete preprocessing and model pipeline.
     """,
     unsafe_allow_html=True,
 )
