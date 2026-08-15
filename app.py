@@ -330,9 +330,6 @@ if missing_features:
     st.stop()
 
 X = data[FEATURE_COLUMNS].copy()
-for col in X.select_dtypes(include=["object"]).columns:
-    X[col] = X[col].replace("?", pd.NA)
-
 
 # TEST DATASET SUMMARY
 st.subheader("1. Test Dataset Summary")
