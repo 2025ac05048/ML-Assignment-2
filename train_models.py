@@ -1,3 +1,4 @@
+# 2025AC05048
 import os
 import warnings
 import joblib
@@ -57,7 +58,7 @@ models = {
     "Decision Tree": DecisionTreeClassifier(random_state=42),
     "KNN": KNeighborsClassifier(n_neighbors=5),
     "Naive Bayes": GaussianNB(),
-    "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1),
+    "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
 }
 
 results = []
